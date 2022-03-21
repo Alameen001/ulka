@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-color:black;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+.container a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img1{
+    width: 30%;
+    padding-left: 173px;
+    padding-top: -9px;
+    margin-left: -128px;
+    margin-top: -19px;
+
+}
+.header{
+    width: 100%;
+    height: 91px;
+    display: flex;
+}
+.nav{
+    display: flex;
+    margin: auto;
+}
+.section{
+    margin-top: 130px;
+    width: 100%;
+    height: 550px;
+    background-image: url(./images/2595389.jpg);
+    background-size: 100%;
+}
+.section .text{
+    display: flex;
+    justify-content: space-around;
+}
+.left-section h1{
+    color:yellow;
+    font-size: 40px;
+    
+}
+.left-section p{
+    color: beige;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.left-section button{
+    background-color:#fdffd1;
+    color:yellow;
+    
+    border-radius: 40px;
+    padding: 16px 60px;
+    background-color: black;
+  
+}
+.button{
+    
+    margin-left:  550px;
+
+}
+.right-section h2{
+    color: #fdffd1;
+    font-size: 21px;
+    letter-spacing: 3px;
+    line-height: 37px;
+    font-size: large;
+}
+.section1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.section1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.images{
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px black;
+    overflow: hidden;
+}
+
+
+.section2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.section2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.images1{
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px black;
+    overflow: hidden;
+}
+.last-section{
+    width: 100%;
+    height: 141px;
+    background-color:rgb(24,24,24);
+    margin-top: 158px;
+
+}
+.table{
+    display: flex;
+    color: white;
+    width: 60%;   
+}
+
+.table1{
+    margin-left: 20px;
+    line-height: 2px;
+    font-family: sans-serif;   
+    padding-top: 62px;
+    padding-bottom: 45px;
+}
+
+
+.social{
+    position: absolute;
+    right: 41px;
+    cursor: pointer;
+    margin-top: -97px;
+
+}
